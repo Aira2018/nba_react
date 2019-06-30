@@ -1,0 +1,28 @@
+.news-list-item {
+    border: 1px solid #f2f2f2f2;
+    margin: 0;
+    padding : 8px 5px 0px 5px;
+    background: #fff;
+}
+    
+.news-list-item h2{
+    font-size: 13px;
+    line-height: 21px;
+    margin: 5px 0;
+    color: #525252;
+
+}
+.news-list-item a{
+    text-decoration: none;
+    flex-grow: 1;
+}
+.news-list-wrapper{
+    box-sizing: border-box;
+    transform: translate(-100%);
+    transition : all .5s ease-in;
+    opacity: 0;
+}
+.news-list-wrapper-active {
+    opacity: 1;
+    transform: translate(0%)
+}

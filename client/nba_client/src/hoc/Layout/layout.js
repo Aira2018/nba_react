@@ -1,13 +1,31 @@
 import React, { Component } from 'react';
 import './layout.css';
 
+import Header from '../../components/Header/header';
+import Footer from '../../components/Footer/footer';
+
 class layout extends Component {
+
+    state = {
+        showNav : false,
+    }
+    toggleSideNav = (action) =>{
+        this.setState({
+            showNav : action
+        })
+
+    }
     render() {
         return (
             <div>
-                <h2>Header</h2>
+                < Header 
+                    showNav = {this.state.showNav}
+                    onHideNav = {() => this.toggleSideNav(false)}
+                    onShowNav = {() => this.toggleSideNav(true)}
+                    />
                 {this.props.children}
-                <h3>footer</h3>
+                < Footer />
+                
             </div>
         );
     }

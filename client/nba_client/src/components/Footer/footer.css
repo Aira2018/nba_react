@@ -1,0 +1,17 @@
+.footer{
+    background : #242424;
+    height: 65px;
+    
+    color: chocolate;
+}
+.footer small{
+    margin: 16px;
+    font-size: 16px;
+}
+.footer p{
+    margin :16px;
+}
+p{
+    display: inline;
+}
+

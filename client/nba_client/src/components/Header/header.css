@@ -1,0 +1,12 @@
+.header{
+    background: #242424;
+    border-bottom: 1px solid;
+}
+.headeropt {
+    display: flex;
+}
+
+.logo{
+    margin : 7px;
+  
+}

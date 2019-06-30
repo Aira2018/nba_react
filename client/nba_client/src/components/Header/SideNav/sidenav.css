@@ -1,0 +1,18 @@
+.option {
+    font-weight: 300;
+    color: #bababa;
+    padding: 10px;
+    font-size: 14px;
+    border-top: 1px solid #404040;
+    margin-left: 20px;
+}
+.option a{
+    color: chocolate;
+    text-decoration: none;
+}
+.option img {
+    color: azure;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}

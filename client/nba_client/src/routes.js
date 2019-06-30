@@ -5,11 +5,11 @@ import Home from './components/Home/home';
 import Layout from './hoc/Layout/layout'
 
 class routes extends Component {
+  
     render() {
         return (
             <div>
                <Layout>
-                   
                     <Switch>
                             <Route path='/' exact component = {Home}/>
                     </Switch>
