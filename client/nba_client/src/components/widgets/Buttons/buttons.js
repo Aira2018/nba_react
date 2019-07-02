@@ -1,5 +1,6 @@
 import React from 'react';
 import './buttons.css';
+import { NavLink } from 'react-router-dom';
 
 
 const Buttons = (props) => {
@@ -15,6 +16,15 @@ const Buttons = (props) => {
            )
            
            break;
+
+        case 'linkTo':
+            template = (
+                <NavLink to={props.linkTo}
+                className='btn-blue'>
+                    {props.cta}
+                    </NavLink> 
+            )
+            break;
        default:
            template = null;
            

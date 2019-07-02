@@ -6,4 +6,6 @@
     color: white;
     font-weight: 500;
     cursor: pointer;
+    display: block;
+    text-decoration: none;
 }

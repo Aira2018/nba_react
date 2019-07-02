@@ -11,18 +11,21 @@ const home = () => {
                 start = '0'
                 end = '3'
             />
+
             <NewsList
             type = 'card'
             loadmore = {true}
             start = '0'
             end = '3'
             amount = '3'/>
+
             <VideoList
             type = 'card'
             title = {true}
-            loadmore = {false}
-            start = '0'
-            amount = '3'/>
+            loadmore = {true}
+            start = {0}
+            amount =  {3}
+            />
           
         </div>
     );

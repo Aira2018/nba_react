@@ -2,13 +2,15 @@
     font-size: 11px;
 }
 .card-info img {
-    margin-right: 5px;
+    margin-right: 1px;
     margin-top: 5px;
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
+    
 }
 .team-name {
     margin-right: 10px;
+  
     background: #d1d1d1;
     color: #fff;
     padding :2px 5px;

@@ -81,7 +81,7 @@ class newslist extends Component {
     }
    
     render() {
-        console.log(this.state.teams)
+       
       
        return(
          <div>
@@ -95,7 +95,7 @@ class newslist extends Component {
              <Button 
                 type = 'loadmore'
                 loadMore = { () => this.loadMore()}
-                cta = 'load more news'
+                cta = 'Load More News'
              />
              
              
