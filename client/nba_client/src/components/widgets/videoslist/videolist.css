@@ -40,3 +40,7 @@
     opacity: 1;
     transform: translate(0%)
 }
+
+.related-wrapper{
+    margin: 0px 5px;
+}

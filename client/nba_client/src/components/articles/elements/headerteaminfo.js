@@ -1,5 +1,6 @@
 import React from 'react';
-import './headerteaminfo.css'
+import './headerteaminfo.css';
+import '../articles.css';
 
 const HeaderTeamInfo = (props) => {
    
@@ -9,18 +10,16 @@ const HeaderTeamInfo = (props) => {
                 style={{
                     background : `url(/images/teams/${props.team.logo})`
                 }}>
-            
-
             </div>
             <div className='right'>
                 <div>
-                    <span>{props.team.city} {props.team.name}</span>
+                    <span>{props.team.city} </span>
                 </div>
                 <div>
-                   
-               
+                    <strong>
+                        {props.team.name}
+                    </strong>
                 </div>
-
             </div>
             
             

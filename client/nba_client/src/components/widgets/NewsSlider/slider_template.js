@@ -34,9 +34,10 @@ const SliderTemplates = (props) => {
                                                 {item.title}
                                             </div>
                                         </NavLink>
-                                        <div style={{textAlign : 'center'}}>
-                                            <ButtonBack className='button'>Back</ButtonBack>
-                                            <ButtonNext className='button'>Next</ButtonNext>
+                                        <div style={{textAlign : 'center'}}
+                                        className = 'button'>
+                                            <ButtonBack id='button-back'>Back</ButtonBack>
+                                            <ButtonNext id='button-left'>Next</ButtonNext>
                                         </div>
                                     </div>
 

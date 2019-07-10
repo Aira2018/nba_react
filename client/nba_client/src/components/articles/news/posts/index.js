@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import {URL} from '../../../../hoc/config';
 import Header from './header';
-import Body from './body';
+import '../../articles.css'
+
 
 class ArticlesNews extends Component {
 
@@ -30,17 +31,33 @@ class ArticlesNews extends Component {
 
     render() {
         const article = this.state.article;
-        console.log('article',article)
         const team = this.state.team;
-        console.log('team',team)
        
         return (
-            <div className='artic;e-wrapper'>
+            <div className='article-wrapper'>
                 <Header
                     teamData = {team}
-                    data = {article.date}
+                    date = {article.date}
                     author = {article.author}/>
-                <Body/>
+                    
+                <div className='article-body'>
+                    <div className='article-body-title'>
+                        <h2>{article.title}</h2>
+                    </div>
+                    <div className='article-body-image'
+                    style={{
+                        background : `url('/images/articles/${article.image}')`
+                    }
+                    }>
+
+                    </div>
+                    <div className='article-body-text'>
+                        <p>{article.body}</p>
+
+                    </div>
+
+
+                </div>
 
                 
                 
