@@ -49,7 +49,7 @@ class VideoArticle extends Component {
     render() {
         let article = this.state.article;
         let team = this.state.team;
-        console.log(this.state)
+   
        
         return (
             <div>

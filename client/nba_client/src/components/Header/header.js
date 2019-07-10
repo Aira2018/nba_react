@@ -13,7 +13,7 @@ const header = (props) => {
             <NavLink to = '/'>
                 <div className='hamburger'
                 onClick = {props.onShowNav}>
-                    <img  alt ='menu' src='/images/ham.png' height='45px' width='45px'/> 
+                    <img  alt ='menu' src='/images/ham.png' height='35px' width='35px'/> 
                 </div>
             </NavLink>
         )
@@ -28,6 +28,7 @@ const header = (props) => {
     }
     
     return (
+
         <header className='header'>
             <SideNav {...props}/>
             <div className='headeropt'>
