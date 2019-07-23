@@ -39,10 +39,12 @@
     border: 1px solid #c5c5c5;
 }
 .article-body-title h2{
-    font-size : 24px;
+    text-align: center;
+    font-size : 20px;
     font-weight: 400;
     color: #4d4d4d;
     margin: 15px 0px;
+
     
 }
 .article-body-image {
@@ -58,7 +60,9 @@
     font-weight: 300;
     line-height: 23px;
     color: #666666;
-    margin-top: 20px 
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
 
 }
 

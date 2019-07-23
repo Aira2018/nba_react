@@ -23,8 +23,7 @@ class routes extends Component {
                             <Route path='/articles/:id' exact component={ArticlesNews}/>
                             <Route path='/videos/:id' exact component={VideoArticle}/>
                             <Route path='/signout' exact component={Signout}/>
-                    </Switch>
-                    
+                    </Switch> 
                </Layout>
             </div>
         );

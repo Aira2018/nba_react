@@ -16,14 +16,10 @@ componentWillMount(){
         })
     })
 }
-
     render() {
-       
-        
         return (
             <SliderTemplate news = {this.state.news} />
         );
     }
 }
-
 export default NewsSlider;

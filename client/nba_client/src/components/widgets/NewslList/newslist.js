@@ -3,7 +3,8 @@ import { CSSTransition, TransitionGroup} from 'react-transition-group';
 import axios from 'axios';
 import { NavLink } from 'react-router-dom';
 import { URL } from '../../../hoc/config';
-import '../NewslList/newslist.css';
+
+import './newslist.css';
 import Button from '../Buttons/buttons';
 import CardInfo from '../cardinfo/cardinfo';
 
@@ -84,7 +85,7 @@ class newslist extends Component {
                                     timeout = {500}
                                     >
                                     <NavLink to={`/articles/${item.id}`}>
-                                       <div className='flex-wrapper'>c
+                                       <div className='flex-wrapper'>
                                            <div className='side-image'
                                            style={{
                                                background : `url('../images/articles/${item.image}')`

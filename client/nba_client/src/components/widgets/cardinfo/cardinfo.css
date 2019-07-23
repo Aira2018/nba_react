@@ -10,13 +10,12 @@
 }
 .team-name {
     margin-right: 10px;
-  
     background: #d1d1d1;
     color: #fff;
     padding :2px 5px;
 
 }
 .date{
-    color: #2196f3
-
+    color: #2196f3;
+    font-size: 9px;
 }

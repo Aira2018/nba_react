@@ -11,7 +11,6 @@ const home = () => {
                 start = '0'
                 end = '3'
             />
-
             <NewsList
             type = 'card'
             loadmore = {true}

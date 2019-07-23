@@ -1,16 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import { CarouselProvider, Slider, Slide } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
-
 import './slider.css'
 
-
-
 const SliderTemplates = (props) => {
-    
-    
     return (
         <CarouselProvider
         naturalSlideWidth={100}
@@ -34,11 +29,11 @@ const SliderTemplates = (props) => {
                                                 {item.title}
                                             </div>
                                         </NavLink>
-                                        <div style={{textAlign : 'center'}}
+                                        {/* <div style={{textAlign : 'center'}}
                                         className = 'button'>
                                             <ButtonBack id='button-back'>Back</ButtonBack>
                                             <ButtonNext id='button-left'>Next</ButtonNext>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                 </div>
